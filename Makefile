@@ -22,3 +22,11 @@ CI:
 	make format
 	make lint
 	make test
+
+### Terraform
+infra:
+	terraform -chdir=./terraform init
+
+infra_apply:
+	terraform -chdir=./terraform apply -auto-approve
+
