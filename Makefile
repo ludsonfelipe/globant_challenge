@@ -3,19 +3,19 @@ run-api:
 
 ### Development
 sort-imports:
-	isort .
+	poetry run isort .
 
 format:
-	black .
+	poetry run black .
 
 lint:
-	ruff check .
+	poetry run ruff check .
 
 test:
-	pytest -v tests/ 
+	poetry run pytest -v tests/ 
 
 test-coverage:
-	pytest --cov=globantchallenge tests/
+	poetry run pytest --cov=globantchallenge tests/
 
 CI:
 	make sort-imports
