@@ -9,3 +9,4 @@ terraform/gcp_key/
 terraform/terraform.tfstate
 terraform/terraform.tfstate.backup
 terraform/.terraform.lock.hcl
+description.md
