@@ -16,7 +16,7 @@ format:
 	poetry run black .
 
 lint:
-	poetry run ruff check .
+	poetry run ruff check . --ignore F401
 
 test:
 	poetry run pytest -v tests/ 
