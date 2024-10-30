@@ -1,0 +1,106 @@
+[
+    {
+        "department": "Training",
+        "job": "Chief Design Engineer",
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+    },
+    {
+        "department": "Training",
+        "job": "Design Engineer",
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+    },
+    {
+        "department": "Training",
+        "job": "Developer III",
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+    },
+    {
+        "department": "Training",
+        "job": "Health Coach III",
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+    },
+    {
+        "department": "Training",
+        "job": "Junior Executive",
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+    },
+    {
+        "department": "Training",
+        "job": "Media Manager III",
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+    },
+    {
+        "department": "Training",
+        "job": "Recruiter",
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+    },
+    {
+        "department": "Training",
+        "job": "Research Assistant IV",
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+    },
+    {
+        "department": "Training",
+        "job": "Senior Cost Accountant",
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+    },
+    {
+        "department": "Training",
+        "job": "Staff Accountant IV",
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+    },
+    {
+        "department": "Training",
+        "job": "Structural Engineer",
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+    },
+    {
+        "department": "Training",
+        "job": "Systems Administrator II",
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+    },
+    {
+        "department": "Training",
+        "job": null,
+        "Q1": 1,
+        "Q2": 0,
+        "Q3": 0,
+        "Q4": 0
+    }
+]
