@@ -16,7 +16,7 @@ def test_upload_csv_success():
     response = client.post("/upload-csv/", files=files)
 
     assert response.status_code == status.HTTP_200_OK
-    assert response.json() == {"filename": "test.csv"}
+    assert response.json() == {"filename_": "test.csv"}
 
 
 def test_upload_csv_no_file():
@@ -31,4 +31,4 @@ def test_upload_csv_empty_file():
     response = client.post("/upload-csv/", files=files)
 
     assert response.status_code == status.HTTP_200_OK
-    assert response.json() == {"filename": "test.csv"}
+    assert response.json() == {"filename_": "test.csv"}
