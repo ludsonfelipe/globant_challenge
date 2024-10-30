@@ -22,5 +22,8 @@ COPY globantchallenge/ ./globantchallenge/
 # Expõe a porta que a aplicação usará
 EXPOSE 8000
 
+# Define porta 8000 para a aplicação
+ENV PORT=8000
+
 # Comando para executar a aplicação
-CMD ["uvicorn", "globantchallenge.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["sh", "-c", "uvicorn globantchallenge.main:app --host 0.0.0.0 --port $PORT"]
