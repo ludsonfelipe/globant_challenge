@@ -1,11 +1,9 @@
-from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi import FastAPI
+from globantchallenge.api.endpoints import upload
+from globantchallenge.core.init_db import init_db
 
 app = FastAPI()
 
+init_db()
 
-@app.post("/upload-csv/")
-async def upload_csv(file: UploadFile = File(...)):
-    try:
-        return {"filename_": file.filename}
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+app.include_router(upload.router, tags=["upload"])
