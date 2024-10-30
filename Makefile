@@ -6,7 +6,7 @@ docker-run-local:
 	docker run -p 8000:8000 globant-api
 
 test-api-cloud:
-	curl -X POST -F "file=@data/jobs.csv" $(url)
+	curl -X POST -F "file=@data/hired_employees.csv" $(url)
 
 ### Development
 sort-imports:
@@ -57,3 +57,6 @@ infra_artifactregistry_apply:
 infra_artifactregistry_destroy:
 	terraform -chdir=./terraform destroy -target module.artifact_registry
 
+# Postgres Local
+connect_postgres:
+	docker exec -it postgres_db psql -h postgres_db -U postgres -d globant_challenge
