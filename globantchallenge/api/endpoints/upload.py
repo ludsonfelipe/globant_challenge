@@ -27,6 +27,7 @@ async def upload_employees_csv(
         )
 
     df.columns = ["id", "name", "datetime", "department_id", "job_id"]
+    df = df.with_columns(pl.col("datetime").str.to_datetime("%Y-%m-%dT%H:%M:%SZ"))
 
     employees = df.to_struct("employee")
 
